@@ -1,0 +1,25 @@
+# StockPulse — git ignore
+
+# Runtime / local artifacts
+*.log
+*.tmp
+sessions/
+*.pid
+
+# Local environment overrides (if ever created)
+config/config.local.php
+.env
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Dependency / build folders (none by default)
+node_modules/
+vendor/
